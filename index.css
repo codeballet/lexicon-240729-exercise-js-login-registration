@@ -1,0 +1,84 @@
+/* Global Reset */
+body {
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flex */
+body,
+main,
+.register,
+.login,
+.register-form,
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Elements */
+button,
+input {
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+
+    position: fixed;
+    margin-top: 0;
+}
+
+h1 {
+    margin: 5rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+/* Nav */
+nav .toggle:hover {
+    background-color: rgb(174, 210, 233);
+    transition: 0.5s;
+}
+
+/* login page */
+.login {
+    display: none;
+}
+
+/* Forms */
+input {
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+label {
+    align-self: flex-start;
+    margin: 1rem 0 0.3rem 0;
+}
+
+main button {
+    margin-top: 2rem;
+    background-color: rgb(159, 207, 204);
+}
+
+main button:hover {
+    background-color: rgb(143, 229, 200);
+    transition: 0.5s;
+}
+
+input,
+main button {
+    box-shadow: 8px 8px 12px -15px rgba(0, 0, 0, 0.68);
+}
