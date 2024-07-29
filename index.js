@@ -146,6 +146,7 @@ registerFormRef.addEventListener("submit", (e) => {
 
         // Add user object to registered users
         setRegistrationDataList(registrationData);
+        console.log(registrationData);
 
         showLoginPage();
     } catch (err) {
